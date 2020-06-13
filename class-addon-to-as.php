@@ -59,6 +59,10 @@ if ( ! class_exists( 'Addon_Modify_AS_Frequency' ) ) {
 
 			return $settings;
 		}
+
+		public static function amf_tests() {
+			echo "Hi, you're into amf_tests";
+		}
 	}
 }
 $modify_as_frequency = new Addon_Modify_AS_Frequency();
