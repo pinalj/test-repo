@@ -63,6 +63,14 @@ if ( ! class_exists( 'Addon_Modify_AS_Frequency' ) ) {
 		public static function amf_tests() {
 			echo "Hi, you're into amf_tests";
 		}
+
+		public static function amf_tests2() {
+			echo "In the second function <br>";
+		}
+
+		public static function amf_tests3() {
+			echo "In the third function <br>";
+		}
 	}
 }
 $modify_as_frequency = new Addon_Modify_AS_Frequency();
